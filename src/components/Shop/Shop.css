@@ -1,0 +1,9 @@
+section .container {
+  width: 90%;
+  margin: 0 auto;
+  background: #33333333;
+}
+.shop.row {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+}
