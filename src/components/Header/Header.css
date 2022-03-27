@@ -27,3 +27,11 @@
 .menu li a:hover {
   color: #ff9900;
 }
+@media (max-width: 610px) {
+  .menu {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    gap: 10px;
+  }
+}

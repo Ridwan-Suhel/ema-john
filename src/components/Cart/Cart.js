@@ -19,11 +19,13 @@ const Cart = ({ cart }) => {
   return (
     <div className="cart-area">
       <h2>Order Summary</h2>
-      <p>Selected Items: {quantity}</p>
-      <p>Total Price: ${total}</p>
-      <p>Total Shipping Charges: ${shippingTotal}</p>
-      <p>Tax: ${tax.toFixed(2)}</p>
-      <p>Grand Total: ${grandTotal.toFixed(2)}</p>
+      <div className="cart-info">
+        <p>Selected Items: {quantity}</p>
+        <p>Total Price: ${total}</p>
+        <p>Total Shipping Charges: ${shippingTotal}</p>
+        <p>Tax: ${tax.toFixed(2)}</p>
+        <p>Grand Total: ${grandTotal.toFixed(2)}</p>
+      </div>
     </div>
   );
 };

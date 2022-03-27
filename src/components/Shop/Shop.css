@@ -22,3 +22,40 @@ section .container {
   position: sticky;
   top: 0px;
 }
+@media (max-width: 767px) {
+  .shop.row {
+    grid-template-columns: 1fr;
+  }
+  .container {
+    order: 2;
+  }
+
+  .order-summary {
+    order: 1;
+    height: 25vh !important;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+    padding: 10px 5px 10px 10px;
+    overflow-y: scroll;
+  }
+  .cart-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+}
+@media (max-width: 610px) {
+  .header .container {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .cart-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+  }
+}
