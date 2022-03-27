@@ -5,11 +5,20 @@ section .container {
 .shop.row {
   display: grid;
   grid-template-columns: 4fr 1fr;
-  gap: 20px;
+}
+.shop-cart-area h2 {
+  margin: 20px 0px;
 }
 .cart-wrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   /* grid-auto-rows: 1fr; */
+}
+.order-summary {
+  background-color: #ffe0b3;
+  padding: 20px 5px 20px 20px;
+  height: 100vh;
+  position: sticky;
+  top: 0px;
 }
