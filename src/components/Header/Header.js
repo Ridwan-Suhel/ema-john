@@ -1,5 +1,7 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import logo from "../../images/Logo.svg";
+import CustomLink from "../CustomLink/CustomLink";
 import "./Header.css";
 const Header = () => {
   return (
@@ -12,16 +14,16 @@ const Header = () => {
         </div>
         <ul className="menu">
           <li>
-            <a href="/home">Shop</a>
+            <CustomLink to="/shop">Shop</CustomLink>
           </li>
           <li>
-            <a href="/orders">Orders</a>
+            <CustomLink to="/orders">Orders</CustomLink>
           </li>
           <li>
-            <a href="/nventory">Inventory</a>
+            <CustomLink to="/inventory">Inventory</CustomLink>
           </li>
           <li>
-            <a href="/about">About</a>
+            <CustomLink to="/about">About</CustomLink>
           </li>
         </ul>
       </nav>
