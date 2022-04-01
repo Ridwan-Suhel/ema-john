@@ -59,3 +59,23 @@ section .container {
     gap: 10px;
   }
 }
+
+.Btn,
+.Btn button {
+  padding: 7px 7px;
+  background: rgb(255, 161, 161);
+  border: 1px solid rgb(255, 161, 161);
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.Btn svg,
+.Btn button svg {
+  transition: all 0.3s ease-in-out;
+  padding-left: 5px;
+}
+.Btn:hover svg,
+.Btn button:hover svg {
+  transition: all 0.3s ease-in-out;
+  margin-left: 5px;
+}

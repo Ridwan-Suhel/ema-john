@@ -1,0 +1,52 @@
+.single-card {
+  border: 1px solid #ddd;
+  border-radius: 7px;
+  padding: 10px;
+
+  display: flex;
+  margin-bottom: 15px;
+}
+.single-card h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.single-card h2 p {
+}
+.single-card img {
+  width: 120px;
+  object-fit: cover;
+  border-radius: 7px;
+}
+.single-card .delete-item {
+}
+.single-card .info-wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.single-card .info-wrapper .review-info {
+  margin-left: 20px;
+}
+.review-info h2 {
+  margin-bottom: 12px;
+}
+.review-info p {
+  margin-top: 5px;
+}
+.delete-item button {
+  background: rgba(235, 36, 1, 0.308);
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 100%;
+  border: 0px;
+
+  cursor: pointer;
+}
+.delete-item button svg {
+  color: rgba(235, 37, 1, 1);
+  font-size: 25px;
+}
